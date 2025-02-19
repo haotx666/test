@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPA会计打卡啦</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CPA会计打卡啦</h1>
+        
+        <div class="progress-container">
+            <div class="progress-item">
+                <label>第一轮学习进度</label>
+                <div class="progress-bar">
+                    <div class="progress round1" id="progress1"></div>
+                </div>
+                <span id="progress1-text">0%</span>
+            </div>
+            
+            <div class="progress-item">
+                <label>第二轮学习进度</label>
+                <div class="progress-bar">
+                    <div class="progress round2" id="progress2"></div>
+                </div>
+                <span id="progress2-text">0%</span>
+            </div>
+            
+            <div class="progress-item">
+                <label>第三轮学习进度</label>
+                <div class="progress-bar">
+                    <div class="progress round3" id="progress3"></div>
+                </div>
+                <span id="progress3-text">0%</span>
+            </div>
+        </div>
+
+        <table id="chapter-table">
+            <thead>
+                <tr>
+                    <th>章节</th>
+                    <th>内容占比</th>
+                    <th>第一轮</th>
+                    <th>第二轮</th>
+                    <th>第三轮</th>
+                </tr>
+            </thead>
+            <tbody id="chapter-body">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
